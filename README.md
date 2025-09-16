@@ -1,18 +1,24 @@
 ProfileApp
 
-ProfileApp is a personal portfolio website for Simon Azike, showcasing my skills as a Front-end Developer. The website is built using HTML, CSS, and JavaScript, with a focus on responsiveness, accessibility, and user-friendly navigation.
+ProfileApp is a personal portfolio website created as part of my first internship task at CodVeda Technologies Solution. The project demonstrates skills in Front-end Development, including HTML, CSS, and JavaScript, and serves as a professional showcase.
+
+Project Overview
+
+Internship Task: First assignment during the internship at CodVeda Technologies Solution.
+
+Purpose: To create a personal portfolio page introducing myself, highlighting my skills, and providing a contact method for potential clients or collaborators.
 
 Features
 
-Responsive Hero Section – Introduces Simon with a professional image and short description.
+Responsive Hero Section: Introduces me with a professional image and short description.
 
-About Us Section – Highlights SamzikTech’s values, mission, and core principles with visually appealing cards.
+About Section: Highlights my professional values and approach with visually appealing cards.
 
-Contact Form – Fully functional form for visitors to get in touch with Simon.
+Contact Form: Functional form for visitors to send messages.
 
-Responsive Navigation – Mobile-friendly hamburger menu for smooth navigation across sections.
+Responsive Navigation: Mobile-friendly hamburger menu for smooth navigation.
 
-Modern Design – Clean layout with CSS Grid and Flexbox, smooth hover effects, and adaptive typography.
+Modern Design: Clean layout using CSS Grid and Flexbox, adaptive typography, and hover effects.
 
 Technologies Used
 
@@ -20,19 +26,20 @@ HTML5
 
 CSS3 (Flexbox & Grid)
 
-JavaScript (for menu toggle and interactivity)
+JavaScript (for interactive menu toggle)
 
 Google Fonts (Poppins)
 
-Future Enhancements
+Learning Outcomes
 
-Add form submission integration with backend or email API.
-
-Include portfolio project gallery with clickable project cards.
-
-Implement animations and transitions for a more interactive experience.
-
-Optimize for performance and SEO.
+Implementing responsive web design using a mobile-first approach.
 
 
-<img width="1341" height="634" alt="image" src="https://github.com/user-attachments/assets/2af4b7c1-2e6c-4b67-90fb-0a4f93aa8599" />
+<img width="1341" height="619" alt="image" src="https://github.com/user-attachments/assets/54f2d78e-6f15-4d98-a91b-a6626930f2c8" />
+
+
+Practicing CSS Grid and Flexbox for layout design.
+
+Using JavaScript to add interactive elements.
+
+Structuring a professional portfolio project for web development practice.
