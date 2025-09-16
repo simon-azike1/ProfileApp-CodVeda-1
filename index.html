@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodVeda</title>
+    <link rel="stylesheet" href="./Css_Util/css/styles.css">
+    <link rel="stylesheet" href="./Css_Util/css/responsiveness.css">
+    <script src="./nav-menu.js" defer></script>
+</head>
+<body>
+   <header>
+  <div class="logo">
+    <img src="./Css_Util/assets/Img/profile-main-1.png" alt="Simon's profile picture" onerror="this.style.display='none'">
+    <h1>Simon</h1>
+  </div>
+
+  <!-- Hamburger Menu Button -->
+  <button class="menu-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
+
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="home" aria-label="Hero section introducing Simon Azike">
+    <div class="hero-content">
+      <h1>I am Simon Azike</h1>
+      <p>I am a Front-end Developer</p>
+    </div>
+    <div class="hero-image" role="img" aria-label="Hero image"></div>
+  </section>
+
+  <section id="about" class="about" aria-label="About Us">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p class="intro">
+        At <strong>SamzikTech</strong>, we believe in building more than just products <br> we build trust, innovation, and lasting relationships with our clients.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <img src="./Css_Util/assets/Img/connect.png" alt="Connecting with customers" onerror="this.style.display='none'">
+          <h3>Connecting Deeper</h3>
+          <p>
+            We connect with our consumers on a personal level, ensuring our solutions 
+            truly solve their needs.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <img src="./Css_Util/assets/Img/profile-2.jpg" alt="Our company story" onerror="this.style.display='none'">
+          <h3>Our Story</h3>
+          <p>
+            Born out of passion, our founders created this business to bring accessible 
+            and innovative technology to everyone.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <img src="./Css_Util/assets/Img/our_value.jpg" alt="Our core values" onerror="this.style.display='none'">
+          <h3>Our Values</h3>
+          <p>
+            Guided by integrity, innovation, and collaboration, we focus on delivering 
+            excellence in everything we do.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" aria-label="Contact Form">
+    <div class="contact-content">
+      <h1>Get in Touch</h1>
+      <p>Do you have any questions? Kindly drop a message below:</p>
+    </div>
+    <div class="form-container">
+      <form action="#" method="post">
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="+234567890" required>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
