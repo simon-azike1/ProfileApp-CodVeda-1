@@ -33,3 +33,6 @@ Include portfolio project gallery with clickable project cards.
 Implement animations and transitions for a more interactive experience.
 
 Optimize for performance and SEO.
+
+
+<img width="1341" height="634" alt="image" src="https://github.com/user-attachments/assets/2af4b7c1-2e6c-4b67-90fb-0a4f93aa8599" />
