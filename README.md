@@ -1,6 +1,6 @@
 ProfileApp
 
-ProfileApp is a personal portfolio website for Simon Azike, showcasing his skills as a Front-end Developer. The website is built using HTML, CSS, and JavaScript, with a focus on responsiveness, accessibility, and user-friendly navigation.
+ProfileApp is a personal portfolio website for Simon Azike, showcasing my skills as a Front-end Developer. The website is built using HTML, CSS, and JavaScript, with a focus on responsiveness, accessibility, and user-friendly navigation.
 
 Features
 
